@@ -1,4 +1,6 @@
-# Simple script to change user agent, use scrapy to get links of reference webppage and store it in json file. Lastly to print image urls
+#Change user-agent to anything appropriate
+# Get links of reference webpages stored in a .json file
+#print out image links from given url
 import scrapy
 from scrapy.crawler import CrawlerProcess
 import re
